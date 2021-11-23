@@ -1,5 +1,7 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import Navbar from '../components/organisms/Navbar'
+import Image from 'next/dist/client/image';
 
 export default function about() {
     return (
@@ -11,7 +13,7 @@ export default function about() {
                     <div className="col-12 col-md-6 ">
                         <h1 className="fw-bold mb-3">My, Myself & I</h1>
                         <p>
-                            My name is Azlan Rafar I'm a Full Stack Web Developer based in <b className="text-danger">Indonesia</b>.
+                            My name is Azlan Rafar I&apos;m a Full Stack Web Developer based in <b className="text-danger">Indonesia</b>.
                             I describe
                             myself
                             as a passionate developer who loves <b className="text-danger"> coding, open source,</b> and

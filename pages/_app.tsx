@@ -1,3 +1,6 @@
+/* eslint-disable @next/next/no-page-custom-font */
+/* eslint-disable @next/next/no-sync-scripts */
+/* eslint-disable @next/next/no-css-tags */
 import '../styles/main.css'
 import type { AppProps } from 'next/app'
 import Head from 'next/head'

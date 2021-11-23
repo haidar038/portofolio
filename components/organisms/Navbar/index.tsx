@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 import React from 'react'
 import SideLink from './sideLink'
 import { useRouter } from "next/router";
