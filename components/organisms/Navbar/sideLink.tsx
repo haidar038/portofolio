@@ -19,7 +19,7 @@ export default function SideLink(props: Partial<MenuProps>) {
             <b className="b1"></b>
             <Link href={href}>
                 <a data-bs-toggle="tooltip" data-bs-placement="top" className="side-link" title={title}>
-                    <i className={icon}></i>
+                    <span className={icon}/>
                 </a>
             </Link>
         </li>
