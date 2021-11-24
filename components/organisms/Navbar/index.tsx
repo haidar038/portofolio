@@ -32,11 +32,11 @@ export default function index() {
             <nav className="navbar navbar-expand navbar-mobile d-md-none">
                 <div className="container-xxl">
                     <ul className="navbar-nav m-auto w-100 justify-content-around">
-                        <MobileLink icon="fa fa-home" href="/" />
-                        <MobileLink icon="fa fa-user" href="/about" />
-                        <MobileLink icon="fa fa-tools" href="/skill" />
-                        <MobileLink icon="fa fa-folder" href="/project" />
-                        <MobileLink icon="fa fa-phone" href="/contact" />
+                        <MobileLink icon="ic-home.svg" href="/" />
+                        <MobileLink icon="ic-about.svg" href="/about" />
+                        <MobileLink icon="ic-skill.svg" href="/skill" />
+                        <MobileLink icon="ic-project.svg" href="/project" />
+                        <MobileLink icon="ic-contact.svg" href="/contact" />
                     </ul>
                 </div>
             </nav>
