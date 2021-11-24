@@ -19,7 +19,7 @@ export default function contact() {
                             <input type="text" name="emil" placeholder="Email" className="form-control mb-3" />
                             <textarea name="field" id="field" placeholder="Your Message Here"
                                 className="form-control mb-3"></textarea>
-                            <button className="btn d-block ms-auto px-4">Send <i className="fa fa-send"></i></button>
+                            <button className="btn d-block ms-auto px-4">Send </button>
                         </form>
                     </div>
                 </section>

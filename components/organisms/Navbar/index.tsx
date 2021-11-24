@@ -16,15 +16,15 @@ export default function index() {
                 </a>
 
                 <ul className="mt-auto p-0 mb-5">
-                    <SideLink icon="fa fa-home" title="Home" href="/"
+                    <SideLink icon="home.svg" title="Home" href="/"
                         active={router.pathname == "/" ? true : false} />
-                    <SideLink icon="fa fa-user" title="About" href="/about"
+                    <SideLink icon="about.svg" title="About" href="/about"
                         active={router.pathname == "/about" ? true : false} />
-                    <SideLink icon="fa fa-tools" title="Skill" href="/skill"
+                    <SideLink icon="skill.svg" title="Skill" href="/skill"
                         active={router.pathname == "/skill" ? true : false} />
-                    <SideLink icon="fa fa-folder" title="Portofolio" href="/project"
+                    <SideLink icon="project.svg" title="Portofolio" href="/project"
                         active={router.pathname == "/project" ? true : false} />
-                    <SideLink icon="fa fa-phone" title="Contact" href="/contact"
+                    <SideLink icon="contact.svg" title="Contact" href="/contact"
                         active={router.pathname == "/contact" ? true : false} />
                 </ul>
             </nav>

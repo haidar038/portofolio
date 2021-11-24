@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../components/organisms/Navbar'
+import Image from 'next/dist/client/image'
 
 export default function skill() {
     return (
@@ -27,49 +28,49 @@ export default function skill() {
                     <div className="row tools justify-content-center">
                         <div className="col-4 col-md-2 text-center card pb-0">
                             <div className="card-body">
-                                <i className="fab fa-html5"></i>
+                                <Image src="/icon/ic-html.svg" width={20} height={20} alt="icon" />
                                 <p>HTML 5</p>
                             </div>
                         </div>
                         <div className="col-4 col-md-2 text-center card">
                             <div className="card-body">
-                                <i className="fab fa-css3"></i>
+                                <Image src="/icon/ic-css.svg" width={20} height={20} alt="icon" />
                                 <p>CSS 3</p>
                             </div>
                         </div>
                         <div className="col-4 col-md-2 text-center card">
                             <div className="card-body">
-                                <i className="fab fa-bootstrap"></i>
+                                <Image src="/icon/ic-bootstrap.svg" width={20} height={20} alt="icon" />
                                 <p>Bootstrap</p>
                             </div>
                         </div>
                         <div className="col-4 col-md-2 text-center card">
                             <div className="card-body">
-                                <i className="fab fa-js"></i>
+                                <Image src="/icon/ic-javascript.svg" width={20} height={20} alt="icon" />
                                 <p>JavaScript</p>
                             </div>
                         </div>
                         <div className="col-4 col-md-2 text-center card">
                             <div className="card-body">
-                                <i className="fab fa-react"></i>
+                                <Image src="/icon/ic-react.svg" width={20} height={20} alt="icon" />
                                 <p>React JS</p>
                             </div>
                         </div>
                         <div className="col-4 col-md-2 text-center card">
                             <div className="card-body">
-                                <i className="fab fa-sass"></i>
+                                <Image src="/icon/ic-sass.svg" width={20} height={20} alt="icon" />
                                 <p>SASS</p>
                             </div>
                         </div>
                         <div className="col-4 col-md-2 text-center card">
                             <div className="card-body">
-                                <i className="fas fa-database"></i>
+                                <Image src="/icon/ic-mongodb.svg" width={20} height={20} alt="icon" />
                                 <p>MongoDB</p>
                             </div>
                         </div>
                         <div className="col-4 col-md-2 text-center card">
                             <div className="card-body">
-                                <i className="fas fa-server"></i>
+                                <Image src="/icon/ic-mysql.svg" width={20} height={20} alt="icon" />
                                 <p>MySQL</p>
                             </div>
                         </div>

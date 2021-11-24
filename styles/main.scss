@@ -251,6 +251,11 @@ header{
         }
     }
 }
+@media screen and (max-width: 576px) {
+    #project{
+        margin-bottom: 2rem;
+    }
+}
 
 #contact{
     height: 100vh;
