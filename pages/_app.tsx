@@ -4,6 +4,7 @@
 import '../styles/main.css'
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
+import Script from 'next/script'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -19,7 +20,8 @@ function MyApp({ Component, pageProps }: AppProps) {
 
         <script src="/vendor/jquery/jquery-3.5.1.slim.min.js"></script>
 
-        <script src="/vendor/fontawesome/all.js"></script>
+        <script src="/vendor/tagcloud/main.js"></script>
+
       </Head>
       <Component {...pageProps} />
     </>

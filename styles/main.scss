@@ -190,7 +190,9 @@ header{
 }
 
 #skill{
-    height: 100vh;
+    .row{
+        height: 100vh;
+    }
     h1{
         font-size: 3.2rem;
         font-weight: 700;
@@ -199,29 +201,25 @@ header{
         font-size: 1rem;
     }
 
-    .tools{
-        .card{
-            z-index: -1;
-            margin: 1em;
-            i{
-                font-size: 2rem;
-                margin-bottom: 0.5rem;
-            }
-            p{
-                margin: 0;
-                font-size: 0.7rem;
-            }
-        }
+    .tagcloud {
+        font-family: 'Poppins', sans-serif;  
+        font-size: 1.2rem;
+        text-align: center;
     }
 }
+
 @media screen and (max-width: 576px) {
     #skill{
         h1{
             margin-top: 1em;
             font-size: 2rem !important;
+            line-height: 10px;
         }
         .tools{
             padding-bottom: 4rem;
+        }
+        .tagcloud{
+            margin: auto;
         }
     }
 }
