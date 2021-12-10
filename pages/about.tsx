@@ -28,7 +28,7 @@ export default function about() {
                         </p>
                     </div>
                     <div className="col-12 col-md-6 order-first order-md-last">
-                        <img src="/img/illustration/about.svg" alt="" className="w-100 " />
+                        <img src="/img/illustration/skill.png" alt="" className="w-100 " />
                     </div>
                 </section>
             </main>

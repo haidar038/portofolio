@@ -12,7 +12,7 @@ export default function index() {
         <section id="navbar">
             <nav className="sidebar-dekstop d-none d-md-flex flex-column">
                 <a href="" className="logo mt-5">
-                    <Image src="/img/logo.png" alt="" width={40} height={40} />
+                    <h1 className='h4 fw-bold'>La.</h1>
                 </a>
 
                 <ul className="mt-auto p-0 mb-5">

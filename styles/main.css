@@ -3,21 +3,24 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
+  color: #fff;
 }
 
 :root {
-  --primary-color: #272727;
+  --primary-color: #1d1d1d;
+  --sidebar: #181818;
 }
 
 body {
   min-height: 100vh;
+  background-color: var(--primary-color);
 }
 
 #navbar .sidebar-dekstop {
   position: fixed;
   height: 100vh;
-  background-color: var(--primary-color);
+  background-color: var(--sidebar);
   border: 0 !important;
   text-align: center;
 }
@@ -35,11 +38,10 @@ body {
 #navbar .sidebar-dekstop ul li a {
   font-size: 1.2rem;
   text-decoration: none;
-  color: #fff;
 }
 
 #navbar .sidebar-dekstop ul .active {
-  background: #fff;
+  background: var(--primary-color);
 }
 
 #navbar .sidebar-dekstop ul .active a {
@@ -52,7 +54,7 @@ body {
   right: 0;
   width: 20px;
   height: 20px;
-  background-color: #fff;
+  background-color: var(--primary-color);
 }
 
 #navbar .sidebar-dekstop ul .active .b1::before {
@@ -62,7 +64,7 @@ body {
   width: 20px;
   height: 20px;
   top: -20px;
-  background-color: var(--primary-color);
+  background-color: var(--sidebar);
   border-bottom-right-radius: 20px;
 }
 
@@ -73,7 +75,7 @@ body {
   width: 20px;
   height: 20px;
   bottom: -20px;
-  background-color: #fff;
+  background-color: var(--primary-color);
 }
 
 #navbar .sidebar-dekstop ul .active::before {
@@ -83,7 +85,7 @@ body {
 #navbar .sidebar-dekstop ul .active::after {
   bottom: -20px;
   border-top-right-radius: 20px;
-  background: var(--primary-color);
+  background: var(--sidebar);
 }
 
 #navbar .navbar-mobile {
@@ -91,7 +93,7 @@ body {
   bottom: 0;
   left: 0;
   position: fixed;
-  background: var(--primary-color);
+  background: var(--sidebar);
 }
 
 #navbar .navbar-mobile ul {
@@ -113,22 +115,24 @@ main {
 
 header {
   height: 100vh;
+  color: #fff;
 }
 
 header .text-box h1 {
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: 700;
 }
 
 header .text-box a {
   font-size: 1.3rem;
   font-weight: 500;
-  border: 2px solid var(--primary-color);
+  color: #fff;
+  border: 2px solid #fff;
 }
 
 header .text-box a:hover {
-  background: var(--primary-color);
-  color: #fff;
+  background: #fff;
+  color: var(--primary-color);
 }
 
 header .text-box a:hover::after {
@@ -198,7 +202,7 @@ header img {
 }
 
 #skill .tagcloud {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1.2rem;
   text-align: center;
 }
@@ -218,7 +222,7 @@ header img {
 }
 
 #project .left-side a.btn {
-  background-color: var(--primary-color);
+  border: 1px solid #fff;
   color: #fff;
 }
 
@@ -243,33 +247,49 @@ header img {
   height: 100vh;
 }
 
-#contact input, #contact textarea, #contact button {
-  background-color: var(--primary-color);
+#contact input,
+#contact textarea,
+#contact button {
+  border: 1px solid #fff;
   color: #fff;
 }
 
-#contact input:hover, #contact input:focus, #contact input:active, #contact textarea:hover, #contact textarea:focus, #contact textarea:active, #contact button:hover, #contact button:focus, #contact button:active {
-  background-color: var(--primary-color);
-  color: white;
+#contact input:hover, #contact input:focus, #contact input:active,
+#contact textarea:hover,
+#contact textarea:focus,
+#contact textarea:active,
+#contact button:hover,
+#contact button:focus,
+#contact button:active {
+  color: var(--primary-color);
+  background-color: #fff;
   outline: 0px !important;
   -webkit-appearance: none;
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
 }
 
-#contact input::-webkit-input-placeholder, #contact textarea::-webkit-input-placeholder, #contact button::-webkit-input-placeholder {
+#contact input::-webkit-input-placeholder,
+#contact textarea::-webkit-input-placeholder,
+#contact button::-webkit-input-placeholder {
   color: #afafaf;
 }
 
-#contact input:-ms-input-placeholder, #contact textarea:-ms-input-placeholder, #contact button:-ms-input-placeholder {
+#contact input:-ms-input-placeholder,
+#contact textarea:-ms-input-placeholder,
+#contact button:-ms-input-placeholder {
   color: #afafaf;
 }
 
-#contact input::-ms-input-placeholder, #contact textarea::-ms-input-placeholder, #contact button::-ms-input-placeholder {
+#contact input::-ms-input-placeholder,
+#contact textarea::-ms-input-placeholder,
+#contact button::-ms-input-placeholder {
   color: #afafaf;
 }
 
-#contact input::placeholder, #contact textarea::placeholder, #contact button::placeholder {
+#contact input::placeholder,
+#contact textarea::placeholder,
+#contact button::placeholder {
   color: #afafaf;
 }
 

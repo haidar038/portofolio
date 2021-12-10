@@ -20,9 +20,6 @@ const Home: NextPage = () => {
               <a className="btn px-3">About Me</a>
             </Link>
           </div>
-          <div className="col-5 d-none d-md-inline">
-            <img src="/img/illustration/hero.png" alt="" className="w-100" />
-          </div>
         </header>
       </main>
     </>

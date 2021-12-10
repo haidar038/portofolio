@@ -17,9 +17,6 @@ export default function SideLink(props: Partial<MenuProps>) {
         'active': active,
     })
     let ic = `/icon/ic-${icon}`
-    if (active) {
-        ic = `/icon/ac-ic-${icon}`
-    }
 
     return (
         <li className={classTitle}>
